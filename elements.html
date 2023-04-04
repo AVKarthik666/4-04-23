@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+      <p id="one">good morning</p>
+     <h1 id="two">another example</h1>
+     <span id="showData"></span>
+     <input id="username"/>
+     <button onclick="demo()">submit</button>
+     <script>
+     	var para=document.getElementById("one").innerHTML
+     	console.log(para)
+     	var para=document.getElementById("two").innerHTML
+     	console.log(para)
+     	function demo(){
+     		var user=document.getElementById("username").value
+     		document.getElementById("showData").innerHTML="reactJS"
+     		console.log(user)
+     		console.log(para)
+     	}
+     </script>
+</body>
+</html>
